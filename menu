@@ -79,7 +79,7 @@
     export KERNEL_CONFIG="cyanogenmod_${VARIANT}_defconfig";
 
     # system compiler
-    export CROSS_COMPILE=$PARENT_DIR/arm-eabi-4.4.3/bin/arm-eabi-;
+    export CROSS_COMPILE=$PARENT_DIR/arm-eabi-4.6/bin/arm-eabi-;
 
     # build
     export USER=`whoami`
@@ -100,7 +100,7 @@
   elif [ "$enterLetter" == "c" ]
     then
     # system compiler
-    export CROSS_COMPILE=$PARENT_DIR/arm-eabi-4.4.3/bin/arm-eabi-;
+    export CROSS_COMPILE=$PARENT_DIR/arm-eabi-4.6/bin/arm-eabi-;
     make clean
     $DIR/menu
 

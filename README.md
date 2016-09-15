@@ -24,7 +24,7 @@ Clone the main kernel repository, run this line in your terminal window:
 
 ##Toolchains
 
-    $ git clone https://github.com/mohammad92/arm-eabi-4.4.3
+    $ git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6
 
 ##Building
 
