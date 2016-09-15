@@ -102,6 +102,7 @@
     # system compiler
     export CROSS_COMPILE=$PARENT_DIR/arm-eabi-4.6/bin/arm-eabi-;
     make clean
+    make mrproper
     $DIR/menu
 
 # Restart
