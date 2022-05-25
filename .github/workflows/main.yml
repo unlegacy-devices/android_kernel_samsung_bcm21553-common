@@ -17,7 +17,7 @@ jobs:
         sudo git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6 /opt/toolchains/arm-eabi-4.6/
     - name: Building Kernel
       run: |
-        export CROSS_COMPILE=/opt/toolchains/arm-eabi-4.6/bin/arm-eabi-gcc
+        export CROSS_COMPILE=/opt/toolchains/arm-eabi-4.6/bin/arm-eabi-
         export ARCH=arm;
         export KBUILD_BUILD_USER=notnoelchannel
         export KBUILD_BUILD_HOST=retardedmachine
